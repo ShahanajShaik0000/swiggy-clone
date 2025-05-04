@@ -1,0 +1,429 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 50vw;
+    /* background-color: blue; */
+    /* overflow: hidden;    */
+}
+nav{
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    box-shadow: 5px 5px 5px rgb(209, 207, 207);
+    color: rgb(107, 106, 106);
+}
+#swiggy_logo{
+    width: 40px;
+    height: 75%;
+   margin-left: 2%;
+   margin-top: 5px;
+   position: absolute;
+}
+a{
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 25px;
+    font-weight: bold;
+    position: absolute;
+}
+a:hover{
+    color: orangered;
+    cursor: pointer;
+}
+#arrow{
+    width: 35px;
+    height: 40%;
+   margin-left: 14vw;
+   margin-top: 25px;
+   position: absolute;
+}
+#searchlogo{
+    width: 20px;
+    height: 25%;
+   margin-left: 53.5vw;
+   margin-top: 27px;
+   position: absolute; 
+}
+#discount{
+    width: 20px;
+    height: 25%;
+   margin-left: 63.3vw;
+   margin-top: 27px;
+   position: absolute; 
+}
+.navitems{
+    position: absolute;
+    font-size: 1.5vw;
+}
+.navitems:hover{
+    color: orangered;
+    cursor: pointer;
+}
+#sc{
+    margin-top: 26px;
+    margin-left: 40vw;
+}
+#search{
+    margin-top: 26px;
+    margin-left: 55vw;
+}
+#offers{
+    margin-top: 24px;
+    margin-left: 65vw;
+}
+sup{
+    color: orangered;
+}
+#help{
+    margin-top: 26px;
+    margin-left:76vw;
+}
+#helplogo{
+    width: 20px;
+    height: 25%;
+   margin-left: 74vw;
+   margin-top: 27px;
+   position: absolute;  
+}
+#sign{
+    margin-top: 26px;
+    margin-left: 85vw;
+}
+#signup{
+    width: 20px;
+    height: 25%;
+   margin-left: 83vw;
+   margin-top: 27px;
+   position: absolute; 
+}
+#cart{
+    margin-top: 26px;
+    margin-left: 93vw;
+}
+#mainContainer{
+    width: 73vw;
+    height: 1500px;
+    position: absolute;
+    top: 75px;
+    left: 13.6vw;
+    overflow: hidden;
+    /* background-color: blueviolet; */
+}
+#firstHeading{
+    position: absolute;
+    top: 15px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.food{
+    width: 140px;
+    height: 180px;
+    position: absolute;
+    top: 70px;
+}
+#cake{
+    left: 530px;
+}
+#dosa{
+    left: 170px;
+}
+#biryani{
+    left: 350px;
+}
+#noodles{
+    left: 700px;
+}
+#momo{
+    left: 850px;
+}
+.foodimg{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 18px;
+}
+.foodimg:hover{
+    cursor: pointer;
+    animation: Animation1 5s both;
+}
+#noodlesimg{
+    width: 120px;
+    height: 120px;
+    top: 7px;
+}
+@keyframes Animation1{
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 1.2;
+    }
+}
+.foodHeading{
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    font-weight: lighter;
+    color: rgb(108, 106, 106);
+    top: 20px;
+}
+#noodlesHeading{
+    top: 3px;
+}
+#foodContainer{
+    width: 73vw;
+    height: 300px;
+    /* background-color: red; */
+    position: absolute;
+   border-bottom: 1px solid rgb(195, 193, 193);
+}
+
+#headingtwo{
+    position: relative;
+    top: 340px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.foodimg2{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 390px;
+    border-radius: 15px;
+}
+.foodimg2:hover{
+    cursor: pointer;
+    animation: Animation2 1s both;
+}
+@keyframes Animation2{
+    from{
+        scale: 1px;
+    }
+    to{
+        scale: 0.94;
+    }
+}
+#pizza{
+    left: 350px;
+}
+#burger{
+    left: 695px;
+}
+#iceCream,#ksbakery{
+    top:710px;
+}
+#Sattibabu{
+    top: 710px;
+    left: 350px;
+}
+#ksbakery{
+    left: 695px;
+}
+.foodHeading2{
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: absolute;
+    top: 590px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+#star2{
+    left: 350px;
+}
+#star3{
+    left: 695px;
+}
+.star{
+    width: 18px;
+    height:18px;
+    position: absolute;
+    top: 620px;
+}
+#star4{
+    top: 940px;
+}
+#star5{
+    top: 940px;
+    left: 350px;
+}
+#star6{
+    top: 940px;
+    left: 695px;
+}
+.add{
+    position: absolute;
+    font-weight: lighter;
+    letter-spacing: 1px;
+
+}
+#add1,#add4,#add7{
+    top:620px;
+    left:20px;
+}
+#add4{
+    left: 370px;
+}
+#add2,#add5,#add8{
+    top: 640px;
+    font-size: 17px;
+    color: rgb(108, 106, 106);
+}
+#add5,#add6,#pizzaHeading{
+    left: 350px;
+}
+#add7{
+    left: 715px;
+}
+#DominosHeading,#add8,#add9{
+    left: 695px;
+}
+#add3,#add6,#add9{
+    top: 660px;
+    color: rgb(108, 106, 106);
+}
+#IceCreamHeading{
+    position: absolute;
+    top: 910px;
+}
+#sattibabuBiriyaniHeading,#add13,#add14,#add15{
+       top: 910px;
+       left: 350px;
+       position: absolute;
+}
+#KSBaeryHeading,#add16,#add17,#add18{
+    top: 910px;
+    left: 695px;
+    position: absolute;
+}
+#add10,#add13,#add16{
+    top: 940px;
+}
+#add13{
+    left:370px ;
+}
+#add10{
+    left: 20px;
+}
+#add16{
+    left: 715px;
+}
+#add11,#add14,#add17{
+    top: 960px;
+}
+#add12,#add15,#add18{
+    top: 980px;
+}
+#footer{
+    width: 100%;
+    height: 600px;
+    background-color:rgba(169, 175, 202, 0.226);
+    position: absolute;
+    top: 1150px;
+    box-shadow: -2px -2px 5px black;
+}
+#footerHeading{
+    position: absolute;
+    top: 35px;
+    left: 15vw;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(58, 57, 57);
+}
+#swiggylogo{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 17.5vw;
+}
+#swiggylim{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(94, 91, 91);
+    position: absolute;
+    top: 260px;
+    left: 17.5vw;
+}
+#company{
+    position: absolute;
+    top: 200px;
+    left: 40vw;
+}
+#Contact{
+    position: absolute;
+    top: 200px;
+    left: 53vw;
+}
+#Available{
+    position: absolute;
+    top: 200px;
+    left: 65vw;
+}
+#Life{
+    position: absolute;
+    top: 200px;
+    left: 78vw;
+}
+#company_{
+    font-size: 15px;
+    color: rgb(94, 91, 91);
+    position: absolute;
+    top: 250px;
+    left: 40vw;
+}
+#Contact_{
+    font-size: 15px;
+    color: rgb(94, 91, 91);
+    position: absolute;
+    top: 270px;
+    left: 53vw;
+}
+#available_{
+    font-size: 15px;
+    color: rgb(94, 91, 91);
+    position: absolute;
+    top: 270px;
+    left: 65vw;
+}
+#life_{
+    font-size: 15px;
+    color: rgb(94, 91, 91);
+    position: absolute;
+    top: 250px;
+    left: 78vw;
+}
+#company_,#life_,#available_,#Contact_:hover{
+    cursor: pointer;
+}
+#links{
+    position: absolute;
+    top: 380px;
+    left: 75vw;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.logos{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 390px;
+    left: 65vw;
+}
+#twitter{
+    left: 67vw;
+}
+#linkdin{
+    left: 69vw;
+}
+#facebook{
+    left: 71vw;
+}
+#pintrest{
+    left: 73vw ;
+}
